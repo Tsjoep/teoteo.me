@@ -351,20 +351,25 @@ li:first-of-type{
 	font-size: 3.5vw;
 }
 
+.gallery2{
+	margin-left: 20%;
+}
+
 h1{
 	font-size: 2em;
+	margin-left: 20%;
 }
 
 .divp{	
 	font-size: 1.2em;
 	width: 60%;
+	margin-left: 25% !important;
 }
 
 #gallery3{
 	width: 40%;
-	margin: 0 0 0 10%;
+	margin: 0 0 0 20%;
 }
-
 }
 
 @media only screen and (max-width: 1024px){
