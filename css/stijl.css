@@ -28,6 +28,10 @@ li:first-of-type{
 	margin: 2px 0 5px 0;
 }
 
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
 li>a:visited{
 	color: #1b03a3;
 }
@@ -71,6 +75,7 @@ main{
 
 section{
 	width: 100%;
+	height: 100%;
 }
 
 main>section>div>figure{
@@ -222,7 +227,7 @@ img{
 
 #gallery3{
 	width: 20%;
-	margin: 0 0 0 10%;
+	margin: 1% 0 0 10%;
 }
 
 .divp>p>a{
@@ -369,7 +374,7 @@ h1{
 
 #gallery3{
 	width: 60% !important;
-	margin: 0 0 0 20% !important;
+	margin: 1% 0 5% 20% !important;
 }
 }
 
@@ -427,7 +432,7 @@ h1{
 
 #gallery3{
 	width: 40%;
-	margin: 0 0 0 20%;
+	margin: 1% 0 0 20%;
 }
 }
 
