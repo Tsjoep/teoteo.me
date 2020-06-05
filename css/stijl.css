@@ -227,7 +227,7 @@ img{
 
 #gallery3{
 	width: 20%;
-	margin: 1% 0 0 10%;
+	margin: 5vh 0 0 10%;
 }
 
 .divp>p>a{
@@ -374,7 +374,7 @@ h1{
 
 #gallery3{
 	width: 60% !important;
-	margin: 1% 0 5% 20% !important;
+	margin: 5vh 0 5% 20% !important;
 }
 }
 
@@ -426,13 +426,13 @@ h1{
 
 .divp{	
 	font-size: 1.2em;
-	width: 60%;
+	width: 20%;
 	margin-left: 20% !important;
 }
 
 #gallery3{
 	width: 40%;
-	margin: 1% 0 0 20%;
+	margin: 5vh 0 0 20%;
 }
 }
 
