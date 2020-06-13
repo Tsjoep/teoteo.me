@@ -48,6 +48,7 @@ section{
 section:nth-of-type(1){
 	height: 100%;
 	position: fixed;
+	overflow: auto;
 }
 
 #homecolor{
