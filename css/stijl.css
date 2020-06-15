@@ -473,14 +473,3 @@ h1{
 	font-size: 1.5em;
 }
 }
-
-@media (prefers-color-scheme: dark) {
-	a:link{
-		color: white;
-		background-color: #1b03a3;
-	}
-
-	a:visited{
-		color: white;
-	}
-}
