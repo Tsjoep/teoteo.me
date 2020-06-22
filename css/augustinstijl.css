@@ -203,7 +203,19 @@ nav{
 video{
 	width: 80%;
 	padding: 0 10%;
-	margin-top: 19.3%;
+	margin-top: 13.7%;
+}
+
+.home1{
+	width: 80%;
+}
+
+#home2{
+	width: 80%;
+}
+
+.bigp{
+	width: 80%;
 }
 
 }
@@ -213,7 +225,12 @@ video{
 video{
 	width: 90%;
 	padding: 0 5%;
-	margin-top: 19.3%;
+}
+
+.songtekst{
+	width: 44%;
+	float: left;
+	margin: 0 0 10% 5.6%;
 }
 
 
