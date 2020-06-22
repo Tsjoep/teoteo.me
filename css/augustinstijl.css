@@ -237,5 +237,9 @@ h1{
 	width: 75%;
 }
 
+.break {
+  display: block;
+}
+
 
 }
