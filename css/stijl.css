@@ -96,6 +96,10 @@ h1{
 	color: #1b03a3;
 }
 
+#experience{
+	float: left;
+}
+
 #brief{
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
@@ -231,21 +235,25 @@ video{
 	height: 100%;
 }
 
-.divp>p>a{
+.divp>ul>li{
+	border-bottom: none;
+}
+
+.divp>p>a,.divp>ul>li>a{
 	color: #1b03a3;
 	text-decoration: none;
 }
 
-.divp>p>a:active{
+.divp>p>a:active,.divp>ul>li>a:active{
 	color: #1b03a3;
 }
 
-.divp>p>a:hover{
+.divp>p>a:hover,.divp>ul>li>a:hover{
 	background-color: #1b03a3;
 	color: white !important;
 }
 
-.divp>p>a:visited{
+.divp>p>a:visited,.divp>ul>li>a:visited{
 	color: #1b03a3;
 }
 
@@ -283,6 +291,11 @@ nav{
 li{
 	padding: 10px 0;
 	text-align: center;
+}
+
+.divp>ul>li{
+	padding: none;
+	text-align: left;
 }
 
 li:first-of-type{
