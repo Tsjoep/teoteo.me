@@ -48,6 +48,7 @@ header>div{
 	float: left;
 }
 
+/*
 header>div>figure{
 	margin: 5px auto 0 auto;
 	flex-basis: 4.5vw;
@@ -56,6 +57,17 @@ header>div>figure{
 header>div>figure>img{
 	display: block;
 }
+*/
+
+header>div>a{
+	margin: 5px auto 0 auto;
+	flex-basis: 4.5vw;
+}
+
+header>div>a>picture{
+	display: block;
+}
+
 
 header>div:first-of-type{
 	width: 10%; 
@@ -283,7 +295,7 @@ header{
 	float: left;
 }
 
-header>div>figure{
+header>div>a{
 	flex-basis: 10vw !important;
 }
 
@@ -411,7 +423,7 @@ nav{
 
 }
 
-header>div>figure{
+header>div>a{
 	flex-basis: 8vw;
 }
 
@@ -488,5 +500,77 @@ h1{
 
 .divp>h2{
 	font-size: 1.5em;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+h1{
+	color: #166FFF;
+}
+
+#brief>span>a{
+	color: #166FFF;
+}
+
+#brief>span>a:active{
+	color: #166FFF;
+}
+
+#brief>span>a:hover{
+	background-color: #166FFF;
+}
+
+#brief>span>a:visited{
+	color: #166FFF;
+}
+
+.divp>h2{
+	color: #166FFF;
+}
+
+.divp>p>a,.divp>ul>li>a{
+	color: #166FFF;
+}
+
+.divp>p>a:active,.divp>ul>li>a:active{
+	color: #166FFF;
+}
+
+.divp>p>a:hover,.divp>ul>li>a:hover{
+	background-color: #166FFF;
+}
+
+.divp>p>a:visited,.divp>ul>li>a:visited{
+	color: #166FFF;
+}
+
+#contact>p>a{
+	color: #166FFF;
+}
+
+#contact>p>a:visited{
+	color: #166FFF;
+}
+
+#contact>p>a:active{
+	color: #166FFF;
+}
+
+li>a{
+	color: #166FFF;
+}
+
+.text{
+	color: #166FFF;
+	background-color:rgba(26,26,26,0.8);
+}
+
+.text:hover {
+	opacity: 1;
 }
 }
